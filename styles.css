@@ -66,3 +66,16 @@ li {
 .spacer-small {
     margin-top: 0.5rem;
 }
+
+@media (max-width: 600px) {
+    .entry {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .entry .right {
+        text-align: left;
+        white-space: normal;
+        margin-top: 0.3rem;
+    }
+}
