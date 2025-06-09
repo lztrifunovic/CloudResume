@@ -34,12 +34,23 @@ h2 {
 .entry {
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
     margin-top: 1rem;
     gap: 2rem;
+    flex-wrap: wrap;
 }
 
 .entry .left {
+    flex: 3;
+    min-width: 250px;
+    word-break: break-word;
+}
+
+.entry .right {
     flex: 2;
+    text-align: right;
+    white-space: nowrap;
+    font-style: italic;
 }
 
 .entry .left .role {
@@ -47,12 +58,6 @@ h2 {
     display: block;
 }
 
-.entry .right {
-    flex: 1;
-    text-align: right;
-    white-space: nowrap;
-    font-style: italic;
-}
 
 ul {
     margin: 0.5rem 0 1rem 1.2rem;
@@ -67,15 +72,54 @@ li {
     margin-top: 0.5rem;
 }
 
-@media (max-width: 600px) {
-    .entry {
-        flex-direction: column;
-        align-items: flex-start;
-    }
+.full-title {
+  display: inline;
+}
 
-    .entry .right {
-        text-align: left;
-        white-space: normal;
-        margin-top: 0.3rem;
-    }
+.short-title {
+  display: none;
+}
+
+.sub-entry {
+    margin-top: 0.3rem;
+}
+
+/* ---------- INLINE LAYOUT FOR JOBS ---------- */
+.job-header,
+.job-role {
+  display: flex;
+  justify-content: space-between;   /* pushes left & right edges apart */
+  align-items: center;
+  gap: 1rem;                        /* keeps a little breathing room */
+  flex-wrap: nowrap;                /* prevents wrapping on small screens */
+}
+
+.job-header { font-weight: 600; }
+
+.job-role .title {                  /* italics for titles */
+  font-style: italic;
+}
+
+.full-title   { display: inline; }
+.short-title  { display: none; }
+/* hide an empty location cell so it doesn’t reserve space */
+.location:empty { display: none; }
+
+/*Mobile Formatting Below*/
+@media (max-width: 600px) {
+  .entry .left, .entry .right {
+    width: 100%;
+    text-align: left;
+    white-space: normal;
+  }
+  .entry .right {
+    margin-top: 0.2rem;
+  }
+  .full-title {
+    display: none;
+  }
+
+  .short-title {
+    display: inline;
+  }
 }
