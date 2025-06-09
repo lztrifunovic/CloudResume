@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #0d0000;
+    color: #333;
+}
+
+.container {
+    max-width: 900px;
+    margin: 2rem auto;
+    background: #fff;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 0.3rem;
+}
+
+h2 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 0.2rem;
+    margin-top: 2rem;
+    color: #444;
+}
+
+.entry {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    gap: 2rem;
+}
+
+.entry .left {
+    flex: 2;
+}
+
+.entry .left .role {
+    font-style: italic;
+    display: block;
+}
+
+.entry .right {
+    flex: 1;
+    text-align: right;
+    white-space: nowrap;
+    font-style: italic;
+}
+
+ul {
+    margin: 0.5rem 0 1rem 1.2rem;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+.spacer-small {
+    margin-top: 0.5rem;
+}
