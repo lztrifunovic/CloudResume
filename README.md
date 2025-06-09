@@ -2,7 +2,7 @@
 📄 About This Project
 I built this Cloud Resume to showcase real, hands-on cloud engineering skills, not just list them on a resume.
 
-This project is based on the [Cloud Resume Challenge]([url](https://cloudresumechallenge.dev/docs/the-challenge/aws/)), which was created to help aspiring cloud professionals prove their capabilities by building something end to end using real cloud services. Instead of only learning theory or earning certifications, this challenge required me to design, deploy, and continuously integrate a real resume site using cloud-native technologies.
+This project is based on the [Cloud Resume Challenge](https://cloudresumechallenge.dev/docs/the-challenge/aws/), which was created to help aspiring cloud professionals prove their capabilities by building something end to end using real cloud services. Instead of only learning theory or earning certifications, this challenge required me to design, deploy, and continuously integrate a real resume site using cloud-native technologies.
 
 
 
