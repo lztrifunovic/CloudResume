@@ -7,14 +7,14 @@ This project is based on the [Cloud Resume Challenge](url), which was created to
 
 
 🎯 Goals of the Challenge
--Demonstrate proficiency with AWS services like S3, CloudFront, Lambda, API Gateway, DynamoDB, and IAM
-
--Gain experience with infrastructure as code using tools like Terraform or AWS SAM
-
--Implement CI/CD pipelines to push updates automatically through GitHub Actions or similar
-
--Learn and apply frontend development (HTML/CSS) by creating a professional resume website
-
--Prove an understanding of serverless architecture, security best practices, and version control
+  -Demonstrate proficiency with AWS services like S3, CloudFront, Lambda, API Gateway, DynamoDB, and IAM
+  
+  -Gain experience with infrastructure as code using tools like Terraform or AWS SAM
+  
+  -Implement CI/CD pipelines to push updates automatically through GitHub Actions or similar
+  
+  -Learn and apply frontend development (HTML/CSS) by creating a professional resume website
+  
+  -Prove an understanding of serverless architecture, security best practices, and version control
 
 This wasn’t just about building a website. It was about proving I can build, deploy, and maintain scalable, secure, and well-architected cloud solutions.
