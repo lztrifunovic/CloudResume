@@ -1,4 +1,5 @@
 # CloudResume
+
 📄 About This Project
 I built this Cloud Resume to showcase real, hands-on cloud engineering skills, not just list them on a resume.
 
@@ -17,4 +18,4 @@ This project is based on the [Cloud Resume Challenge](https://cloudresumechallen
   
   -Prove an understanding of serverless architecture, security best practices, and version control
 
-This wasn’t just about building a website. It was about proving I can build, deploy, and maintain scalable, secure, and well-architected cloud solutions.
+
